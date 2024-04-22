@@ -1,0 +1,50 @@
+/* ========================================== google fonts ========================================== */
+@import url("https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass Mono", monospace;
+}
+
+.projectdetails-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+
+.headline {
+  font-weight: normal;
+}
+
+.description {
+  font-weight: bold;
+  color: #677483;
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  border: 1px solid white;
+  height: 10rem;
+  width: 13rem;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
